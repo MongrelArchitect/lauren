@@ -101,7 +101,9 @@ a:hover, a:active {
 
 #bio {
   margin-top: 10px;
-  font-size: 17px;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.2;
 }
 
 #front-img, #profile-img {
@@ -157,6 +159,7 @@ a:hover, a:active {
   text-align: center;
   font-size: 20px;
   padding: 10px;
+  position: relative;
 }
 
 #painting-title {
@@ -190,6 +193,38 @@ a:hover, a:active {
 
 #close:active {
   box-shadow: 1px 1px 1px gray;
+}
+
+#left-arrow, #right-arrow {
+  position: absolute;
+  bottom: 2px;
+  cursor: pointer;
+}
+
+#left-arrow {
+  left: 5px;
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-right: 25px solid red;
+}
+
+#left-arrow:active {
+  border-right: 25px solid gray;
+}
+
+#right-arrow {
+  right: 5px;
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid red;
+}
+
+#right-arrow:active {
+  border-left: 25px solid gray;
 }
 
 @media screen and (max-width: 610px) {
