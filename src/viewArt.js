@@ -36,6 +36,31 @@ function display(painting) {
   }
 }
 
+function slideshow(collection, painting) {
+  function changePainting() {
+    const currentIndex = collection.indexOf(painting);
+    switch (this.id) {
+      case 'left-arrow':
+        clear();
+        display(collection[currentIndex - 1]);
+        break;
+      case 'right-arrow':
+        clear();
+        display(collection[currentIndex + 1]);
+        break;
+      default:
+        break;
+    }
+  }
+
+  const maxIndex = collection.length - 1;
+  const arrows = document.querySelectorAll('.arrow');
+
+  arrows.forEach((arrow) => {
+    arrow.addEventListener('click', changePainting);
+  });
+}
+
 function viewArt() {
   const { collection } = this.dataset;
   let current;
@@ -49,6 +74,7 @@ function viewArt() {
   current.forEach((painting) => {
     if (painting.title === this.alt) {
       display(painting);
+      slideshow(current, painting);
     }
   });
 }
