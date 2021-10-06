@@ -1250,6 +1250,14 @@ const recent = [
   },
 ];
 
+candy.forEach((painting) => {
+  painting.collection = candy;
+});
+
+recent.forEach((painting) => {
+  painting.collection = recent;
+});
+
 
 
 
@@ -1311,13 +1319,13 @@ function loadContact() {
   h2.textContent = 'Contact';
 
   const content = document.querySelector('#content');
+
   const link = document.createElement('a');
   link.setAttribute('href', 'mailto:lmbass@roadrunner.com?Subject=Art');
   link.textContent = 'lmbass@roadrunner.com';
   content.textContent = 'email: ';
 
   content.appendChild(link);
-
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadContact);
@@ -1636,31 +1644,43 @@ function display(painting) {
   } else {
     paintingSold.innerHTML = '';
   }
-}
 
-function slideshow(collection, painting) {
-  function changePainting() {
-    const currentIndex = collection.indexOf(painting);
-    switch (this.id) {
-      case 'left-arrow':
-        clear();
-        display(collection[currentIndex - 1]);
-        break;
-      case 'right-arrow':
-        clear();
-        display(collection[currentIndex + 1]);
-        break;
-      default:
-        break;
-    }
-  }
+  const { collection } = painting;
 
   const maxIndex = collection.length - 1;
-  const arrows = document.querySelectorAll('.arrow');
+  const currentIndex = collection.indexOf(painting);
 
-  arrows.forEach((arrow) => {
-    arrow.addEventListener('click', changePainting);
-  });
+  const left = document.querySelector('#left-arrow');
+  const right = document.querySelector('#right-arrow');
+
+  function prevPainting() {
+    // go backwards
+    left.removeEventListener('click', prevPainting);
+    right.removeEventListener('click', nextPainting);
+    clear();
+    display(collection[currentIndex - 1]);
+  }
+
+  function nextPainting() {
+    // go forwards
+    left.removeEventListener('click', prevPainting);
+    right.removeEventListener('click', nextPainting);
+    clear();
+    display(collection[currentIndex + 1]);
+  }
+
+  if (!collection.indexOf(painting)) {
+    left.setAttribute('style', 'display: none;');
+    right.addEventListener('click', nextPainting);
+  } else if (collection.indexOf(painting) === maxIndex) {
+    right.setAttribute('style', 'display: none;');
+    left.addEventListener('click', prevPainting);
+  } else {
+    left.removeAttribute('style');
+    right.removeAttribute('style');
+    left.addEventListener('click', prevPainting);
+    right.addEventListener('click', nextPainting);
+  }
 }
 
 function viewArt() {
@@ -1676,7 +1696,6 @@ function viewArt() {
   current.forEach((painting) => {
     if (painting.title === this.alt) {
       display(painting);
-      slideshow(current, painting);
     }
   });
 }

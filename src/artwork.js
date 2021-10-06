@@ -1235,4 +1235,12 @@ const recent = [
   },
 ];
 
+candy.forEach((painting) => {
+  painting.collection = candy;
+});
+
+recent.forEach((painting) => {
+  painting.collection = recent;
+});
+
 export { candy, recent };
