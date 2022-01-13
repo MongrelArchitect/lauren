@@ -32,7 +32,7 @@ const candy = [
     thumb: './images/candy/thumbs/goodandplenty.jpg',
     size: '12" X 12"',
     type: 'Oil on Wood Panel',
-    sold: false,
+    sold: true,
   },
 
   {
@@ -95,7 +95,7 @@ const candy = [
     thumb: './images/candy/thumbs/poprocks.jpg',
     size: '12" X 12"',
     type: 'Oil on Wood Panel',
-    sold: false,
+    sold: true,
   },
 
   {
@@ -226,6 +226,78 @@ const candy = [
 ];
 
 const recent = [
+  {
+    title: 'SPARKLE',
+    url: './images/art/sparkle.jpg',
+    thumb: './images/art/thumbs/sparkle.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'CARE-FREE',
+    url: './images/art/care-free.jpg',
+    thumb: './images/art/thumbs/care-free.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'EYE CANDY',
+    url: './images/art/eyecandy.jpg',
+    thumb: './images/art/thumbs/eyecandy.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'FRAGILE',
+    url: './images/art/fragile.jpg',
+    thumb: './images/art/thumbs/fragile.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'UNBREAKABLE',
+    url: './images/art/unbreakable.jpg',
+    thumb: './images/art/thumbs/unbreakable.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'TOOTSIE POP',
+    url: './images/art/tootsiepop.jpg',
+    thumb: './images/art/thumbs/tootsiepop.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'SWEET DREAMS',
+    url: './images/art/sweetdreams.jpg',
+    thumb: './images/art/thumbs/sweetdreams.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'SPILL THE TEA',
+    url: './images/art/spillthetea.jpg',
+    thumb: './images/art/thumbs/spillthetea.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
   {
     title: 'BOMB POP',
     url: './images/art/bombpop.jpg',
@@ -367,7 +439,7 @@ const recent = [
     thumb: './images/art/thumbs/bang.jpg',
     size: '36" X 18"',
     type: 'Oil on Canvas',
-    sold: false,
+    sold: true,
   },
 
   {
@@ -691,7 +763,7 @@ const recent = [
     thumb: './images/art/thumbs/selftalk.jpg',
     size: '24" X 30"',
     type: 'Oil on Canvas',
-    sold: false,
+    sold: true,
   },
 
   {
