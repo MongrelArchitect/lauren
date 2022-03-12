@@ -227,6 +227,24 @@ const candy = [
 
 const recent = [
   {
+    title: 'VERSUS',
+    url: './images/art/versus.jpg',
+    thumb: './images/art/thumbs/versus.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'LOOK OUT',
+    url: './images/art/lookout.jpg',
+    thumb: './images/art/thumbs/lookout.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
     title: 'SPARKLE',
     url: './images/art/sparkle.jpg',
     thumb: './images/art/thumbs/sparkle.jpg',
