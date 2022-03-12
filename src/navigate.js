@@ -3,6 +3,7 @@ import loadProfile from './profile';
 import loadRecent from './recent';
 import loadCandy from './candy';
 import loadContact from './contact';
+import loadPress from './press';
 
 function clearContent() {
   const content = document.querySelector('#content');
@@ -29,6 +30,9 @@ function changeContent(id) {
       break;
     case 'profile':
       loadProfile();
+      break;
+    case 'press':
+      loadPress();
       break;
     case 'recent':
       loadRecent();

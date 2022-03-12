@@ -28,6 +28,10 @@ function loadProfile() {
   const exhibitionsList = document.createElement('ul');
 
   const exhibitions = [
+    '2022 - "Made in California," Brea Gallery, Brea, CA',
+    '2022 - "The Other Art Fair," Los Angeles, CA',
+    '2022 - "WAIT GAIN," Dab Art Co, Los Angeles, CA',
+    '2022 - "real ART," Agoura Hills, CA',
     '2021 - "Open Theme," Las Laguna Art Gallery, Laguna Beach, CA',
     '2021 - "Informationary," LAAA Gallery 825, Los Angeles, CA',
     '2020 - "Aurora," LAAA Gallery 825, Los Angeles, CA,',
