@@ -1,5 +1,14 @@
 const candy = [
   {
+    title: 'NERDS',
+    url: './images/candy/nerds.jpg',
+    thumb: './images/candy/thumbs/nerds.jpg',
+    size: '12" X 12"',
+    type: 'Oil on Wood Panel',
+    sold: false,
+  },
+
+  {
     title: 'AIRHEADS',
     url: './images/candy/airheads.jpg',
     thumb: './images/candy/thumbs/airheads.jpg',
@@ -226,6 +235,69 @@ const candy = [
 ];
 
 const recent = [
+  {
+    title: 'RING POP',
+    url: './images/art/ringpop.jpg',
+    thumb: './images/art/thumbs/ringpop.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'JUST ONE',
+    url: './images/art/justone.jpg',
+    thumb: './images/art/thumbs/justone.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'EAT ME',
+    url: './images/art/eatme.jpg',
+    thumb: './images/art/thumbs/eatme.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'BUBBLE YUM',
+    url: './images/art/bubbleyum.jpg',
+    thumb: './images/art/thumbs/bubbleyum.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'PAY DAY',
+    url: './images/art/payday.jpg',
+    thumb: './images/art/thumbs/payday.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'SOMEWHERE OVER THE RAINBOW',
+    url: './images/art/somewhere.jpg',
+    thumb: './images/art/thumbs/somewhere.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'TAKE A CHANCE',
+    url: './images/art/takeachance.jpg',
+    thumb: './images/art/thumbs/takeachance.jpg',
+    size: '60" X 40"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
   {
     title: 'VERSUS',
     url: './images/art/versus.jpg',
