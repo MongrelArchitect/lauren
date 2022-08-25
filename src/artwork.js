@@ -23,7 +23,7 @@ const candy = [
     thumb: './images/candy/thumbs/bighunk.jpg',
     size: '12" X 12"',
     type: 'Oil on Wood Panel',
-    sold: false,
+    sold: true,
   },
 
   {
@@ -32,7 +32,7 @@ const candy = [
     thumb: './images/candy/thumbs/candynecklace.jpg',
     size: '12" X 12"',
     type: 'Oil on Wood Panel',
-    sold: false,
+    sold: true,
   },
 
   {
@@ -77,7 +77,7 @@ const candy = [
     thumb: './images/candy/thumbs/luckycharms.jpg',
     size: '12" X 12"',
     type: 'Oil on Wood Panel',
-    sold: false,
+    sold: true,
   },
 
   {
@@ -212,7 +212,7 @@ const candy = [
     thumb: './images/candy/thumbs/mandms.jpg',
     size: '12" X 12"',
     type: 'Oil on Wood Panel',
-    sold: false,
+    sold: true,
   },
 
   {
@@ -235,6 +235,33 @@ const candy = [
 ];
 
 const recent = [
+  {
+    title: 'TWISTED',
+    url: './images/art/twisted.jpg',
+    thumb: './images/art/thumbs/twisted.jpg',
+    size: '36" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'COMMUNITY CHEST',
+    url: './images/art/communitychest.jpg',
+    thumb: './images/art/thumbs/communitychest.jpg',
+    size: '36" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'PASSING GO',
+    url: './images/art/passinggo.jpg',
+    thumb: './images/art/thumbs/passinggo.jpg',
+    size: '36" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
   {
     title: 'RING POP',
     url: './images/art/ringpop.jpg',
@@ -592,7 +619,7 @@ const recent = [
     thumb: './images/art/thumbs/smarties.jpg',
     size: '36" X 18"',
     type: 'Oil on Canvas',
-    sold: false,
+    sold: true,
   },
 
   {
