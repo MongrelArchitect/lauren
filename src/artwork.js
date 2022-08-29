@@ -236,33 +236,6 @@ const candy = [
 
 const recent = [
   {
-    title: 'TWISTED',
-    url: './images/art/twisted.jpg',
-    thumb: './images/art/thumbs/twisted.jpg',
-    size: '36" X 36"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
-    title: 'COMMUNITY CHEST',
-    url: './images/art/communitychest.jpg',
-    thumb: './images/art/thumbs/communitychest.jpg',
-    size: '36" X 36"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
-    title: 'PASSING GO',
-    url: './images/art/passinggo.jpg',
-    thumb: './images/art/thumbs/passinggo.jpg',
-    size: '36" X 36"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
     title: 'RING POP',
     url: './images/art/ringpop.jpg',
     thumb: './images/art/thumbs/ringpop.jpg',
@@ -312,15 +285,6 @@ const recent = [
     url: './images/art/somewhere.jpg',
     thumb: './images/art/thumbs/somewhere.jpg',
     size: '36" X 18"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
-    title: 'TAKE A CHANCE',
-    url: './images/art/takeachance.jpg',
-    thumb: './images/art/thumbs/takeachance.jpg',
-    size: '60" X 40"',
     type: 'Oil on Canvas',
     sold: false,
   },
@@ -893,24 +857,6 @@ const recent = [
   },
 
   {
-    title: 'MARY HAD A LITTLE LAMB',
-    url: './images/art/maryhadalittlelamb.jpg',
-    thumb: './images/art/thumbs/maryhadalittlelamb.jpg',
-    size: '36" X 36"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
-    title: 'ALL THAT GLITTERS',
-    url: './images/art/allthatglitters.jpg',
-    thumb: './images/art/thumbs/allthatglitters.jpg',
-    size: '24" X 48"',
-    type: 'Oil on Canvas',
-    sold: true,
-  },
-
-  {
     title: 'THERE\'S A LOT TO LIKE INSIDE',
     url: './images/art/theresalottolikeinside.jpg',
     thumb: './images/art/thumbs/theresalottolikeinside.jpg',
@@ -924,15 +870,6 @@ const recent = [
     url: './images/art/whatliesbeneath.jpg',
     thumb: './images/art/thumbs/whatliesbeneath.jpg',
     size: '24" X 24"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
-    title: 'GOLDILOCKS',
-    url: './images/art/goldilocks.jpg',
-    thumb: './images/art/thumbs/goldilocks.jpg',
-    size: '36" X 24"',
     type: 'Oil on Canvas',
     sold: false,
   },
@@ -960,15 +897,6 @@ const recent = [
     url: './images/art/goodtothelastdrop.jpg',
     thumb: './images/art/thumbs/goodtothelastdrop.jpg',
     size: '30" X 48"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
-    title: 'SOME DAY MY PRINCE WILL COME',
-    url: './images/art/somedaymyprincewillcome.jpg',
-    thumb: './images/art/thumbs/somedaymyprincewillcome.jpg',
-    size: '36" X 36"',
     type: 'Oil on Canvas',
     sold: false,
   },
@@ -1037,64 +965,10 @@ const recent = [
   },
 
   {
-    title: 'PINOCCHIO',
-    url: './images/art/pinocchio.jpg',
-    thumb: './images/art/thumbs/pinocchio.jpg',
-    size: '48" X 36"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
     title: 'RING POP THE QUESTION',
     url: './images/art/ringpopthequestion.jpg',
     thumb: './images/art/thumbs/ringpopthequestion.jpg',
     size: '24" X 36"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
-    title: 'THE BOY WHO CRIED WOLF',
-    url: './images/art/theboywhocriedwolf.jpg',
-    thumb: './images/art/thumbs/theboywhocriedwolf.jpg',
-    size: '36" X 36"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
-    title: 'BEAUTY AND THE BEAST',
-    url: './images/art/beautyandthebeast.jpg',
-    thumb: './images/art/thumbs/beautyandthebeast.jpg',
-    size: '30" X 40"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
-    title: 'LITTLE RED RIDING HOOD',
-    url: './images/art/littleredridinghood.jpg',
-    thumb: './images/art/thumbs/littleredridinghood.jpg',
-    size: '48" X 30"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
-    title: 'THE PRINCESS AND THE PEA(S)',
-    url: './images/art/theprincessandthepeas.jpg',
-    thumb: './images/art/thumbs/theprincessandthepeas.jpg',
-    size: '20" X 16"',
-    type: 'Oil & Gold Leaf on Canvas',
-    sold: false,
-  },
-
-  {
-    title: 'THE EMPEROR\'S NEW CLOTHES',
-    url: './images/art/theemperorsnewclothes.jpg',
-    thumb: './images/art/thumbs/theemperorsnewclothes.jpg',
-    size: '36" X 36"',
     type: 'Oil on Canvas',
     sold: false,
   },
@@ -1121,15 +995,6 @@ const recent = [
     title: 'UNTITLED',
     url: './images/art/untitled.jpg',
     thumb: './images/art/thumbs/untitled.jpg',
-    size: '36" X 36"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
-    title: 'THE PRINCESS AND THE FROG',
-    url: './images/art/theprincessandthefrog.jpg',
-    thumb: './images/art/thumbs/theprincessandthefrog.jpg',
     size: '36" X 36"',
     type: 'Oil on Canvas',
     sold: false,
@@ -1235,15 +1100,6 @@ const recent = [
   },
 
   {
-    title: 'UGLY DUCKLING',
-    url: './images/art/uglyduckling.jpg',
-    thumb: './images/art/thumbs/uglyduckling.jpg',
-    size: '40" X 40"',
-    type: 'Oil on Canvas',
-    sold: true,
-  },
-
-  {
     title: 'WHATEVER YOU DO...BE AHEAD IN BEAUTY',
     url: './images/art/whateveryoudobeaheadinbeauty.jpg',
     thumb: './images/art/thumbs/whateveryoudobeaheadinbeauty.jpg',
@@ -1320,15 +1176,6 @@ const recent = [
     url: './images/art/bliss.jpg',
     thumb: './images/art/thumbs/bliss.jpg',
     size: '48" X 24"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
-    title: 'RAPUNZEL',
-    url: './images/art/rapunzel.jpg',
-    thumb: './images/art/thumbs/rapunzel.jpg',
-    size: '48" X 36"',
     type: 'Oil on Canvas',
     sold: false,
   },
@@ -1424,6 +1271,164 @@ const recent = [
   },
 ];
 
+const funAndGames = [
+  {
+    title: 'PASSING GO',
+    url: './images/art/passinggo.jpg',
+    thumb: './images/art/thumbs/passinggo.jpg',
+    size: '36" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'COMMUNITY CHEST',
+    url: './images/art/communitychest.jpg',
+    thumb: './images/art/thumbs/communitychest.jpg',
+    size: '36" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'TWISTED',
+    url: './images/art/twisted.jpg',
+    thumb: './images/art/thumbs/twisted.jpg',
+    size: '36" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'TAKE A CHANCE',
+    url: './images/art/takeachance.jpg',
+    thumb: './images/art/thumbs/takeachance.jpg',
+    size: '60" X 40"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'ALL THAT GLITTERS',
+    url: './images/art/allthatglitters.jpg',
+    thumb: './images/art/thumbs/allthatglitters.jpg',
+    size: '24" X 48"',
+    type: 'Oil on Canvas',
+    sold: true,
+  },
+
+];
+
+const fairyTales = [
+  {
+    title: 'GOLDILOCKS',
+    url: './images/art/goldilocks.jpg',
+    thumb: './images/art/thumbs/goldilocks.jpg',
+    size: '36" X 24"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'SOME DAY MY PRINCE WILL COME',
+    url: './images/art/somedaymyprincewillcome.jpg',
+    thumb: './images/art/thumbs/somedaymyprincewillcome.jpg',
+    size: '36" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'PINOCCHIO',
+    url: './images/art/pinocchio.jpg',
+    thumb: './images/art/thumbs/pinocchio.jpg',
+    size: '48" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'THE BOY WHO CRIED WOLF',
+    url: './images/art/theboywhocriedwolf.jpg',
+    thumb: './images/art/thumbs/theboywhocriedwolf.jpg',
+    size: '36" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'BEAUTY AND THE BEAST',
+    url: './images/art/beautyandthebeast.jpg',
+    thumb: './images/art/thumbs/beautyandthebeast.jpg',
+    size: '30" X 40"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'LITTLE RED RIDING HOOD',
+    url: './images/art/littleredridinghood.jpg',
+    thumb: './images/art/thumbs/littleredridinghood.jpg',
+    size: '48" X 30"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'THE PRINCESS AND THE PEA(S)',
+    url: './images/art/theprincessandthepeas.jpg',
+    thumb: './images/art/thumbs/theprincessandthepeas.jpg',
+    size: '20" X 16"',
+    type: 'Oil & Gold Leaf on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'THE EMPEROR\'S NEW CLOTHES',
+    url: './images/art/theemperorsnewclothes.jpg',
+    thumb: './images/art/thumbs/theemperorsnewclothes.jpg',
+    size: '36" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'THE PRINCESS AND THE FROG',
+    url: './images/art/theprincessandthefrog.jpg',
+    thumb: './images/art/thumbs/theprincessandthefrog.jpg',
+    size: '36" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'UGLY DUCKLING',
+    url: './images/art/uglyduckling.jpg',
+    thumb: './images/art/thumbs/uglyduckling.jpg',
+    size: '40" X 40"',
+    type: 'Oil on Canvas',
+    sold: true,
+  },
+
+  {
+    title: 'RAPUNZEL',
+    url: './images/art/rapunzel.jpg',
+    thumb: './images/art/thumbs/rapunzel.jpg',
+    size: '48" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'MARY HAD A LITTLE LAMB',
+    url: './images/art/maryhadalittlelamb.jpg',
+    thumb: './images/art/thumbs/maryhadalittlelamb.jpg',
+    size: '36" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+];
+
 candy.forEach((painting) => {
   painting.collection = candy;
 });
@@ -1432,4 +1437,14 @@ recent.forEach((painting) => {
   painting.collection = recent;
 });
 
-export { candy, recent };
+funAndGames.forEach((painting) => {
+  painting.collection = funAndGames;
+});
+
+fairyTales.forEach((painting) => {
+  painting.collection = fairyTales;
+});
+
+export {
+  candy, recent, funAndGames, fairyTales,
+};
