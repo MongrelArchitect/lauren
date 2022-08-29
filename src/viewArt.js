@@ -1,4 +1,6 @@
-import { candy, recent } from './artwork';
+import {
+  candy, recent, funAndGames, fairyTales,
+} from './artwork';
 
 function clear() {
   const grayout = document.querySelector('#grayout');
@@ -79,6 +81,10 @@ function viewArt() {
 
   if (collection === 'candy') {
     current = candy;
+  } else if (collection === 'funAndGames') {
+    current = funAndGames;
+  } else if (collection === 'fairyTales') {
+    current = fairyTales;
   } else {
     current = recent;
   }

@@ -4,6 +4,8 @@ import loadRecent from './recent';
 import loadCandy from './candy';
 import loadContact from './contact';
 import loadPress from './press';
+import loadGames from './funAndGames';
+import loadTales from './fairyTales';
 
 function clearContent() {
   const content = document.querySelector('#content');
@@ -42,6 +44,12 @@ function changeContent(id) {
       break;
     case 'contact':
       loadContact();
+      break;
+    case 'funAndGames':
+      loadGames();
+      break;
+    case 'fairyTales':
+      loadTales();
       break;
     default:
       break;
