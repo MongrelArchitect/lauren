@@ -637,7 +637,7 @@ const recent = [
     thumb: './images/art/thumbs/makingasplash.jpg',
     size: '36" X 18"',
     type: 'Oil on Canvas',
-    sold: false,
+    sold: true,
   },
 
   {
