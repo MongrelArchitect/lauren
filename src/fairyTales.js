@@ -3,7 +3,7 @@ import viewArt from './viewArt';
 
 function loadTales() {
   const h2 = document.querySelector('h2');
-  h2.textContent = 'Fun and Games';
+  h2.textContent = 'Fairy Tales';
 
   const artwork = document.createElement('div');
   artwork.setAttribute('id', 'artwork');
