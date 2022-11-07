@@ -236,6 +236,24 @@ const candy = [
 
 const recent = [
   {
+    title: 'FUN DIP IS FUN',
+    url: './images/art/fundip.jpg',
+    thumb: './images/art/thumbs/fundip.jpg',
+    size: '36" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'SILLY STRING',
+    url: './images/art/sillystring.jpg',
+    thumb: './images/art/thumbs/sillystring.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
     title: 'RING POP',
     url: './images/art/ringpop.jpg',
     thumb: './images/art/thumbs/ringpop.jpg',
