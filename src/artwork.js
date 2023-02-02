@@ -1291,6 +1291,24 @@ const recent = [
 
 const funAndGames = [
   {
+    title: 'GAME OVER',
+    url: './images/art/gameover.jpg',
+    thumb: './images/art/thumbs/gameover.jpg',
+    size: '20" X 20"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'STANDBY',
+    url: './images/art/standby.jpg',
+    thumb: './images/art/thumbs/standby.jpg',
+    size: '40" X 30"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
     title: 'PASSING GO',
     url: './images/art/passinggo.jpg',
     thumb: './images/art/thumbs/passinggo.jpg',

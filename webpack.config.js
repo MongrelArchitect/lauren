@@ -5,7 +5,8 @@ module.exports = {
   entry: './src/index.js',
   mode: 'production',
   output: {
-    filename: 'main_2022-11-07.js',
+    filename: 'main_2023-02-02.js',
     path: path.resolve(__dirname, 'dist'),
+    hashFunction: 'xxhash64',
   },
 };
