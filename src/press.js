@@ -4,6 +4,11 @@ function loadPress() {
 
   const content = document.querySelector('#content');
 
+  const video = document.createElement('div');
+  video.className = 'video-container';
+  video.innerHTML = '<iframe class="video" src="https://www.youtube.com/embed/ZLOSH5FUnrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+  content.appendChild(video);
+
   const articlesList = document.createElement('ul');
 
   const heading = document.createElement('h3');
