@@ -236,6 +236,15 @@ const candy = [
 
 const recent = [
   {
+    title: 'CHARMED',
+    url: './images/art/charmed.jpg',
+    thumb: './images/art/thumbs/charmed.jpg',
+    size: '36" X 36"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
     title: 'FUN DIP IS FUN',
     url: './images/art/fundip.jpg',
     thumb: './images/art/thumbs/fundip.jpg',
@@ -1069,7 +1078,7 @@ const recent = [
     thumb: './images/art/thumbs/emerging.jpg',
     size: '24" X 12"',
     type: 'Oil on Canvas',
-    sold: false,
+    sold: true,
   },
 
   {
@@ -1181,15 +1190,6 @@ const recent = [
   },
 
   {
-    title: 'BALANCING ACT',
-    url: './images/art/balancingact.jpg',
-    thumb: './images/art/thumbs/balancingact.jpg',
-    size: '48" X 36"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
     title: 'BLISS',
     url: './images/art/bliss.jpg',
     thumb: './images/art/thumbs/bliss.jpg',
@@ -1271,15 +1271,6 @@ const recent = [
   },
 
   {
-    title: 'DOMESTIC NIGHTMARES',
-    url: './images/art/domesticnightmares.jpg',
-    thumb: './images/art/thumbs/domesticnightmares.jpg',
-    size: '36" X 36"',
-    type: 'Oil on Canvas',
-    sold: false,
-  },
-
-  {
     title: 'SEDUCTION',
     url: './images/art/seduction.jpg',
     thumb: './images/art/thumbs/seduction.jpg',
@@ -1290,6 +1281,24 @@ const recent = [
 ];
 
 const funAndGames = [
+  {
+    title: 'CANDYLAND',
+    url: './images/art/candyland.jpg',
+    thumb: './images/art/thumbs/candyland.jpg',
+    size: '60" X 40"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'CHUTES AND LADDERS',
+    url: './images/art/chutesandladders.jpg',
+    thumb: './images/art/thumbs/chutesandladders.jpg',
+    size: '80" X 60"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
   {
     title: 'GAME OVER',
     url: './images/art/gameover.jpg',

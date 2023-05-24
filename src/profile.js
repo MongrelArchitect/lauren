@@ -28,6 +28,7 @@ function loadProfile() {
   const exhibitionsList = document.createElement('ul');
 
   const exhibitions = [
+    '2023 - "Sugar Coated Supersized," Founder\'s Hall Gallery SOKA University, Aliso Viejo, CA',
     '2022 - "Made in California," Brea Gallery, Brea, CA',
     '2022 - "The Other Art Fair," Los Angeles, CA',
     '2022 - "WAIT GAIN," Dab Art Co, Los Angeles, CA',
