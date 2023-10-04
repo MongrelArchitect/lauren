@@ -236,6 +236,24 @@ const candy = [
 
 const recent = [
   {
+    title: 'BLEACHED SEA ANEMONES',
+    url: './images/art/bleachedseaanemones.jpg',
+    thumb: './images/art/thumbs/bleachedseaanemones.jpg',
+    size: '20" X 16"',
+    type: 'Oil on Linen',
+    sold: false,
+  },
+
+  {
+    title: 'BLEACHED CORAL',
+    url: './images/art/bleachedcoral.jpg',
+    thumb: './images/art/thumbs/bleachedcoral.jpg',
+    size: '20" X 16"',
+    type: 'Oil on Linen',
+    sold: false,
+  },
+
+  {
     title: 'CHARMED',
     url: './images/art/charmed.jpg',
     thumb: './images/art/thumbs/charmed.jpg',
@@ -1281,6 +1299,33 @@ const recent = [
 ];
 
 const funAndGames = [
+  {
+    title: 'THE CLAW',
+    url: './images/art/theclaw.jpg',
+    thumb: './images/art/thumbs/theclaw.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'PRINCESS PEACH',
+    url: './images/art/princesspeach.jpg',
+    thumb: './images/art/thumbs/princesspeach.jpg',
+    size: '36" X 18"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
+  {
+    title: 'THE GAME OF LIFE',
+    url: './images/art/thegameoflife.jpg',
+    thumb: './images/art/thumbs/thegameoflife.jpg',
+    size: '60" X 40"',
+    type: 'Oil on Canvas',
+    sold: false,
+  },
+
   {
     title: 'CANDYLAND',
     url: './images/art/candyland.jpg',
