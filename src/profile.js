@@ -28,6 +28,10 @@ function loadProfile() {
   const exhibitionsList = document.createElement('ul');
 
   const exhibitions = [
+    '2023 - "It\'s Been 40", The Hive Gallery, Los Angeles, CA',
+    '2023 - "Supersense", Gallery 825, Los Angeles, CA',
+    '2023 - "The Next Big Thing", Studio Channel Islands, Camarillo, CA',
+    '2023 - "Surely You Jest: Humor In Art", Orange County Center For Contemporary Art, Orange County, CA',
     '2023 - "Sugar Coated Supersized," Founder\'s Hall Gallery SOKA University, Aliso Viejo, CA',
     '2022 - "Made in California," Brea Gallery, Brea, CA',
     '2022 - "The Other Art Fair," Los Angeles, CA',
